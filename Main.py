@@ -19,3 +19,17 @@ nationalaity = False
 # mobile = input("Which mobile are you using?: ")
 # price = int(input("its price is?: "))
 # print(f"WOHOOOO, your mobile is {mobile} and is amazingly at ${price}")
+
+# Day 02:
+# Q1: Rectangle area calculator
+
+lenght  = float(input("Enter lenght: "))
+breadth = float(input("Enter breadth: "))
+area = lenght * breadth
+print(f"The area of your rectangle is : {area}cm²")
+
+
+
+
+
+
