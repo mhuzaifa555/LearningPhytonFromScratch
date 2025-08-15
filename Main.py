@@ -109,6 +109,46 @@ nationalaity = False
 # else:
 #     print("username does not exist")
 
+# Phyton Simple calculator using IF
+# num1 = float(input("Enter first number: "))
+# num2 = float(input("Enter second number: "))
+# operator = input("Enter an operator {+,-,*,/,%: ")
+# if operator == "+":
+#     sum = num1+num2
+# elif operator == "-":
+#     sum = num1 - num2
+# elif operator == "*":
+#     sum = num1 * num2
+# elif operator == "/":
+#     sum = num1 / num2
+# elif operator == "%":
+#     sum = num1 % num2
+# else:
+#     print(f"{operator} is not a valid operator: ")
+# print(f"The answer is {sum}")
 
+# Temperature converting Program:
 
+# unit = input("Is the temperature is in {C/F}?: ")
+# temp = float(input("Enter the temperature: "))
+# if unit == "C":
+#     F = (temp * 9/5) + 32
+#     print(f"The Temperature in Fahrenheit is {round(F, 1)}°F")
+#
+# elif unit == "F":
+#     C = (temp - 32) * 5 / 9
+#     print(f"The Temperature in Celsius is {round(C , 1)}°C")
+# else:
+#     print(f"{unit} is not a correct unit")
 
+# Conditional Statements
+
+# Temperature Checker
+# temperature = int(input("Enter the temperature: "))
+# temp = "Hot Day" if temperature >= 30 else "Not a Hot Day"
+# print(temp)
+
+# Score checker
+# score = int(input("Type run you scored Today!: "))
+# check = "Well Played Man!" if score >50 else "Hard Luck Man!"
+# print(check)
