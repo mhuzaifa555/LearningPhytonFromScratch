@@ -21,15 +21,40 @@ nationalaity = False
 # print(f"WOHOOOO, your mobile is {mobile} and is amazingly at ${price}")
 
 # Day 02:
-# Q1: Rectangle area calculator
+# Exercise 01: Rectangle area calculator
 
-lenght  = float(input("Enter lenght: "))
-breadth = float(input("Enter breadth: "))
-area = lenght * breadth
-print(f"The area of your rectangle is : {area}cm²")
+# lenght  = float(input("Enter lenght: "))
+# breadth = float(input("Enter breadth: "))
+# area = lenght * breadth
+# print(f"The area of your rectangle is : {area}cm²")
+
+# Exercise 02: Shopping Bill
+#
+# item = input("Please select an item: ")
+# quantity = int(input("Quantity: "))
+# price = 10
+# Total = quantity*price
+# print(f"You have bought {quantity} x {item}/s")
+# print(f"Total is ${Total}")
+
+# Exercise 03: Madlibs Game (make a story by filling blanks with random words)
+# noun1 = input("Enter a noun (a place): ")
+# noun2 = input("Enter a noun (anything): ")
+# adjective1 = input("Enter an adjective: ")
+# adjective2 = input("Enter an adjective again: ")
+#
+# print(f"Today I went to {noun1}")
+# print(f"There I saw {noun2}, it was {adjective1}")
+# print(f"I {adjective2} it so much")
 
 
+# if statments
 
 
-
+ age = input("You can access this website")
+if age > 18:
+elif age =0:
+    print("You havent been born yet")
+else:
+    print("You must be above 18")
 
