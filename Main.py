@@ -152,3 +152,24 @@ nationalaity = False
 # score = int(input("Type run you scored Today!: "))
 # check = "Well Played Man!" if score >50 else "Hard Luck Man!"
 # print(check)
+
+# DAY 03:
+# String Methods
+# Username Validation
+# Conditions: Only alphabets and numbers allowed (no spaces, no special chars).Must be at least 5 characters.
+
+# name = input("Enter a username: ")
+#
+# if not name.isalnum() :
+#     print("Username can contain only alphanumeric values, and no spaces")
+# elif len(name) <5 or len(name) > 10:
+#     print("Username must be consists of 5-10 characters")
+# else:
+#     print(f"Welcome {name}")
+
+# String Indexing
+# getting last 4 digits of Credit Card
+# cc_number = input("Enter your CC number Format (****-****-****-****): ")
+# get_dig = cc_number[-4:]
+# print(f"Your Last 4 digit of CC is:{get_dig}")
+
