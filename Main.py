@@ -173,3 +173,15 @@ nationalaity = False
 # get_dig = cc_number[-4:]
 # print(f"Your Last 4 digit of CC is:{get_dig}")
 
+# Day 04
+# While loop
+# any number type, 0 to exit
+
+# Correct password
+password = "huzaifa123"
+user_input = input("Enter password: ")
+while user_input != password:
+    print("Wrong password, try again.")
+    user_input = input("Enter password: ")
+
+print("Access Granted ✅")
