@@ -178,10 +178,22 @@ nationalaity = False
 # any number type, 0 to exit
 
 # Correct password
-password = "huzaifa123"
-user_input = input("Enter password: ")
-while user_input != password:
-    print("Wrong password, try again.")
-    user_input = input("Enter password: ")
+# password = "huzaifa123"
+# user_input = input("Enter password: ")
+# while user_input != password:
+#     print("Wrong password, try again.")
+#     user_input = input("Enter password: ")
+#
+# print("Access Granted ✅")
 
-print("Access Granted ✅")
+# num = 0
+# while num < 100:
+#     num = num +1
+#     print(f"{num}")
+# print("loop is finished")
+
+num = 1
+while num <= 50:
+    if num % 2 == 0:
+     print(f"Even {num}")
+    num +=1
