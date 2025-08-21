@@ -192,8 +192,35 @@ nationalaity = False
 #     print(f"{num}")
 # print("loop is finished")
 
-num = 1
-while num <= 50:
-    if num % 2 == 0:
-     print(f"Even {num}")
-    num +=1
+# num = 1
+# while num <= 50:
+#     if num % 2 == 0:
+#      print(f"Even {num}")
+#     num +=1
+
+# password = "huzaifa"
+# log = input("Enter the password:")
+# while log != password:
+#     print("Error, Enter the correct password!")
+#     log = input("Enter the password:")
+# print("Success")
+
+# Challenge: Number Guessing Game
+# The program should generate a secret number (you can just set one yourself for now, like 7).
+# The user keeps entering numbers until they guess the correct one.
+# If the guess is too high, print "Too high!".
+# If the guess is too low, print "Too low!".
+# If correct, print "You got it!" and stop the loop.
+
+# secret = 5
+# usern = int(input("Guess a number from 1-10: "))
+# while usern != secret:
+#     if usern < 5:
+#         print("Low Guess")
+#         usern = int(input("Guess a higher number from 1-10: "))
+#         guess += guess
+#     elif usern > 5:
+#         print("High Guess")
+#         usern = int(input("Guess a lower number from 1-10: "))
+#         guess += guess
+# print("HURRAY! YOU GUESSED IT RIGHT ")
