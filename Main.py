@@ -224,3 +224,25 @@ nationalaity = False
 #         usern = int(input("Guess a lower number from 1-10: "))
 #         guess += guess
 # print("HURRAY! YOU GUESSED IT RIGHT ")
+
+# Challenge: Number Guessing Game with guess and score
+secret = 7
+guess_limit = 5
+guesses = 0
+score = 100
+
+while guesses < guess_limit:
+    guess = int(input("Guess a number from 1-10!: "))
+    guesses +=1
+
+    if guess == secret:
+        print("You Guessed it Correct!")
+        print(f"Your Score is {score}")
+
+    elif guess < secret:
+        print("Low Guessed!")
+        score -= 20
+    elif guess > secret:
+        print("High Guessed")
+        score -=20
+print("Game Over!!!, The correct guess was: ",secret)
