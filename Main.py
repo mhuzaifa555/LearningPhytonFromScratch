@@ -1,3 +1,4 @@
+import pyttsx3
 # this is my first code
 # print("i like pizza")
 # print ("i like burger too")
@@ -226,23 +227,38 @@ nationalaity = False
 # print("HURRAY! YOU GUESSED IT RIGHT ")
 
 # Challenge: Number Guessing Game with guess and score
-secret = 7
-guess_limit = 5
-guesses = 0
-score = 100
+# secret = 7
+# guess_limit = 5
+# guesses = 0
+# score = 100
+#
+# while guesses < guess_limit:
+#     guess = int(input("Guess a number from 1-10!: "))
+#     guesses +=1
+#
+#     if guess == secret:
+#         print("You Guessed it Correct!")
+#         print(f"Your Score is {score}")
+#
+#     elif guess < secret:
+#         print("Low Guessed!")
+#         score -= 20
+#     elif guess > secret:
+#         print("High Guessed")
+#         score -=20
+# print("Game Over!!!, The correct guess was: ",secret)
 
-while guesses < guess_limit:
-    guess = int(input("Guess a number from 1-10!: "))
-    guesses +=1
-
-    if guess == secret:
-        print("You Guessed it Correct!")
-        print(f"Your Score is {score}")
-
-    elif guess < secret:
-        print("Low Guessed!")
-        score -= 20
-    elif guess > secret:
-        print("High Guessed")
-        score -=20
-print("Game Over!!!, The correct guess was: ",secret)
+# engine = pyttsx3.init()
+#
+# # For Mac, If you face error related to "pyobjc" when running the `init()` method :
+# # Install 9.0.1 version of pyobjc : "pip install pyobjc>=9.0.1"
+#
+# engine.say("Hey, here im using pip in python, just started with code with harry, now im bit a slow in learning, also my name is huzaifa")
+# engine.runAndWait()
+#
+# a=6
+# b=3
+# c="huzaifa"
+# print("the answer is",a+b)
+# print("My name is",c,"the answer is",a-b)
+# print("hey how are u guys")
